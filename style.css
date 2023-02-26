@@ -87,7 +87,22 @@ span{
 }
 p{
     text-align: justify;
-    margin: 20px;
+    margin: 0px 130px;
+    padding: 30px;
+    width: 750px;
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(250, 244, 244);
+}
+button{
+    text-align: center;
+    width: 100px;
+    margin-left: 200px;
+    color: white;
+    background-color: #017143;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
