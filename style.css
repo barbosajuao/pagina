@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;/*esse overflow fez bloquear as escolbar rolagem da tela em todos os raios*/
+    
+}
+header{
+    height: 10vw;
+    padding: 20px 0px;
+   
+    
+}
+.principal{
+    display: flex;/*aqui torna os objetos enline */
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 2%;
+}
+ .logo{
+    width: 50%;/*lenbre que width e a largura nesse caso e a largura da div logo*/
+    padding-left: 50px;
+ }
+ .menu{
+    width: 40%;
+    text-align: right;
+    padding-top: 50px;
+   
+ }
+ .menu > a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 20px;
+    
+    
+ }
+ section{
+    height: 90vw;
+    position: relative;
+ }
+ .bola{
+    position: absolute;
+    background-color: #017143;
+    top: 0%;
+    left: 63%;
+    height: 980px;
+    width: 980px;
+    border-radius: 50%;
+ }
+ p{
+    text-align: center;
+ }
+ .social-midia{
+    position: absolute;
+    top: 10%;
+    left: 93%;
+    height: 980px;
+    width: 980px;
+    border-radius: 50%;
+    
+ }
+ .social-midia img{
+    display: block;
+    margin: 50px;
+ }
+.conteudo{
+    width: 950px;
+    height: 500px;
+    
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+}
+span{
+    color: #017143;
+}
+p{
+    text-align: justify;
+    margin: 20px;
+}
+
+
